@@ -80,9 +80,9 @@ export default function Home() {
 
   return (
     <>
-      {/* <Loader isLoading={isLoading} progress={loadingProgress} /> */}
+       <Loader isLoading={isLoading} progress={loadingProgress} /> 
 
-      {/* {!isLoading && ( */}
+     {!isLoading && ( 
         <div id="smooth-wrapper" className="fixed inset-0 overflow-hidden">
           <div id="smooth-content" className="will-change-transform">
             <Hero />
@@ -96,7 +96,7 @@ export default function Home() {
             
           </div>
         </div>
-      {/* )} */}
+       )} 
     </>
   );
 }
